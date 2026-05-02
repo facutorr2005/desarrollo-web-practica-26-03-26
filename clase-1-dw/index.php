@@ -1,6 +1,6 @@
 <?php
 
-/* $nombre = "Facundo". "<br>";
+$nombre = "Facundo". "<br>";
 
 echo $nombre;
 
@@ -23,7 +23,7 @@ foreach ($nombres as $n) {
 }
 
 var_dump($nombres);
-*/
+
 
 if (isset($_GET['enviar'])) {
     echo "Hola, " . $_GET['nombre'] . "!";
